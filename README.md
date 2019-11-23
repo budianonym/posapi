@@ -4,12 +4,13 @@
 2. Install all dependencies listed in package.json by ``npm install``
 3. Run ``node import`` to import sample data for Nedb
 4. Start the application by ``npm start``
-5. Below are the endpoints 
+5. This app use port 6000
+6. Below are the endpoints 
 
 ### Getting products by value
 * Method: GET
 * Content-Type: application/json
-* Endpoint: localhost:6000/api/v1/product
+* Endpoint: /api/v1/product
 * Example Json request:
 ```
 {
@@ -73,7 +74,7 @@
 ### Comparing 2 product by product id
 * Method: GET
 * Content-Type: application/json
-* Endpoint: localhost:6000/api/v1/compare
+* Endpoint: /api/v1/compare
 * Example Json request:
 ```
 {
@@ -135,7 +136,7 @@
 ### Post an order
 * Method: POST
 * Content-Type: application/json
-* Endpoint: localhost:6000/api/v1/order
+* Endpoint: /api/v1/order
 * Example Json request:
 ```
 {
@@ -159,7 +160,7 @@
 ### Get all order by username
 * Method: GET
 * Content-Type: application/json
-* Endpoint: localhost:6000/api/v1/allorder
+* Endpoint: /api/v1/allorder
 * Example Json request:
 ```
 {
