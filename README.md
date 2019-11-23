@@ -1,9 +1,9 @@
 # Installation Guide
 
-1. Clone this repository into your local (git clone https://github.com/budianonym/posapi.git)
-2. Install all dependencies listed in package.json (npm install)
-3. Run import.js to import sample data for Nedb
-4. Start the application by npm start
+1. Clone this repository into your local by ``git clone https://github.com/budianonym/posapi.git``
+2. Install all dependencies listed in package.json by ``npm install``
+3. Run ``node import`` to import sample data for Nedb
+4. Start the application by ``npm start``
 5. Below are the endpoints 
 
 a. Getting products by value
