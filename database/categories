@@ -1,8 +1,0 @@
-{"name":"electronic","parent":0,"_id":"6Qcb22ATffYQh8gl"}
-{"name":"outfit","parent":0,"_id":"CgMTN9wZbfLoYy7w"}
-{"name":"men","parent":"outfit","_id":"1caSSijAIoXSz3VR"}
-{"name":"woman","parent":"outfit","_id":"JCf4YKUjFIF3rcIf"}
-{"name":"android","parent":"electronic","_id":"j14Oo3MCLAZEARmX"}
-{"name":"cell phone","parent":"electronic","_id":"judWfA5Z8CSKTZ6P"}
-{"name":"mouse","parent":"pc periperal","_id":"RWdNXAyr1DJwvMuX"}
-{"name":"pc periperal","parent":"electronic","_id":"tEh7OJKokTijcXpJ"}

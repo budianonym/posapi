@@ -1,5 +1,0 @@
-{"user":999,"product":888,"qt":999,"_id":"QO06GbXC8esk8EL3"}
-{"_id":"j5haW8PtBK9KvxYg"}
-{"_id":"p1","name":"blank tshirt","price":[{"qt":1,"pr":30000},{"qt":3,"pr":80000}],"category":["men","woman"],"series":["premium","standard"]}
-{"_id":"p2","name":"galaxy fit","price":{"qt":1,"pr":200000},"category":["android","cell phone"],"series":["black mate","shining green"]}
-{"_id":"p3","name":"logitech mouse","price":[{"qt":1,"pr":50000},{"qt":2,"pr":90000},{"qt":3,"pr":130000}],"category":"mouse","series":["blue","red"]}
