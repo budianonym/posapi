@@ -11,13 +11,17 @@ Method: GET
 Content-Type: application/json
 Endpoint: localhost:6000/api/v1/product
 Example Json request:
-```{
+```
+{
  "name": "blank tshirt",
  "category": "mouse",
  "series": "red"
-}```
+}
+```
+
 Example Json response:
-```[
+```
+[
   {
     "_id": "p1",
     "name": "blank tshirt",
@@ -63,19 +67,23 @@ Example Json response:
       "red"
     ]
   }
-]```
+]
+```
 
 b. Comparing 2 product by product id
 Method: GET
 Content-Type: application/json
 Endpoint: localhost:6000/api/v1/compare
 Example Json request:
-```{
-      "id1": "p1",
-     "id2": "p3"
-    }```
+```
+{
+    "id1": "p1",
+    "id2": "p3"
+}
+```
 Example Json response:
-```[
+```
+[
   {
     "_id": "p1",
     "name": "blank tshirt",
@@ -121,37 +129,45 @@ Example Json response:
       "red"
     ]
   }
-]```
+]
+```
 
 c. Post an order
 Method: POST
 Content-Type: application/json
 Endpoint: localhost:6000/api/v1/order
 Example Json request:
-```{
+```
+{
   "user": "budiher",
   "product": "blank tshirt",
   "qt": 1
-}```
+}
+```
 Example Json response:
-```{
+```
+{
   "status": "success",
   "data": {
     "user": "budihermawan",
     "product": "blank tshirt",
     "qt": 1
   }
-}```
+}
+```
 
 d. Get all order by username
 Method: GET
 Content-Type: application/json
 Endpoint: localhost:6000/api/v1/allorder
 Example Json request:
-```{
+```
+{
   "user": "budiher"
 }
+```
 Example Json response:
+```
 [
   {
     "user": "budiher",
@@ -165,4 +181,5 @@ Example Json response:
     "qt": 1,
     "_id": "iaFUhM6oPVKCNN3N"
   }
-]```
+]
+```
