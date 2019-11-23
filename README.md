@@ -1,15 +1,16 @@
 # Installation Guide
 
 1. Clone this repository into your local by ``git clone https://github.com/budianonym/posapi.git``
-2. Install all dependencies listed in package.json by ``npm install``
-3. Run ``node import`` to import sample data for Nedb
-4. Start the application by ``npm start``
-5. This app use port 6000
-6. Below are the endpoints 
+2. Make sure you have nodejs installed, if not, Please go to https://nodejs.org/en/
+3. Install all dependencies listed in package.json by ``npm install``
+4. Run ``node import`` to import sample data for Nedb
+5. Start the application by ``npm start``
+6. This app use port 6000
+7. Below are the endpoints 
 
 ### Getting products by value
-* Method: GET
-* Content-Type: application/json
+* Method: ``GET``
+* Content-Type: ``application/json``
 * Endpoint: ``/api/v1/product``
 * Example Json request:
 ```
@@ -72,8 +73,8 @@
 ```
 
 ### Comparing 2 product by product id
-* Method: GET
-* Content-Type: application/json
+* Method: ``GET``
+* Content-Type: ``application/json``
 * Endpoint: ``/api/v1/compare``
 * Example Json request:
 ```
@@ -134,8 +135,8 @@
 ```
 
 ### Post an order
-* Method: POST
-* Content-Type: application/json
+* Method: ``POST``
+* Content-Type: ``application/json``
 * Endpoint: ``/api/v1/order``
 * Example Json request:
 ```
@@ -150,7 +151,7 @@
 {
   "status": "success",
   "data": {
-    "user": "budihermawan",
+    "user": "budiher",
     "product": "blank tshirt",
     "qt": 1
   }
@@ -158,8 +159,8 @@
 ```
 
 ### Get all order by username
-* Method: GET
-* Content-Type: application/json
+* Method: ``GET``
+* Content-Type: ``application/json``
 * Endpoint: ``/api/v1/allorder``
 * Example Json request:
 ```
