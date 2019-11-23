@@ -7,10 +7,10 @@
 5. Below are the endpoints 
 
 ### Getting products by value
-Method: GET
-Content-Type: application/json
-Endpoint: localhost:6000/api/v1/product
-Example Json request:
+* Method: GET
+* Content-Type: application/json
+* Endpoint: localhost:6000/api/v1/product
+* Example Json request:
 ```
 {
  "name": "blank tshirt",
@@ -19,7 +19,7 @@ Example Json request:
 }
 ```
 
-Example Json response:
+* Example Json response:
 ```
 [
   {
@@ -70,18 +70,18 @@ Example Json response:
 ]
 ```
 
-b. Comparing 2 product by product id
-Method: GET
-Content-Type: application/json
-Endpoint: localhost:6000/api/v1/compare
-Example Json request:
+### Comparing 2 product by product id
+* Method: GET
+* Content-Type: application/json
+* Endpoint: localhost:6000/api/v1/compare
+* Example Json request:
 ```
 {
     "id1": "p1",
     "id2": "p3"
 }
 ```
-Example Json response:
+* Example Json response:
 ```
 [
   {
@@ -132,11 +132,11 @@ Example Json response:
 ]
 ```
 
-c. Post an order
-Method: POST
-Content-Type: application/json
-Endpoint: localhost:6000/api/v1/order
-Example Json request:
+### Post an order
+* Method: POST
+* Content-Type: application/json
+* Endpoint: localhost:6000/api/v1/order
+* Example Json request:
 ```
 {
   "user": "budiher",
@@ -144,7 +144,7 @@ Example Json request:
   "qt": 1
 }
 ```
-Example Json response:
+* Example Json response:
 ```
 {
   "status": "success",
@@ -156,17 +156,17 @@ Example Json response:
 }
 ```
 
-d. Get all order by username
-Method: GET
-Content-Type: application/json
-Endpoint: localhost:6000/api/v1/allorder
-Example Json request:
+### Get all order by username
+* Method: GET
+* Content-Type: application/json
+* Endpoint: localhost:6000/api/v1/allorder
+* Example Json request:
 ```
 {
   "user": "budiher"
 }
 ```
-Example Json response:
+* Example Json response:
 ```
 [
   {
