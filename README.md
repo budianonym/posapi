@@ -10,7 +10,7 @@
 ### Getting products by value
 * Method: GET
 * Content-Type: application/json
-* Endpoint: /api/v1/product
+* Endpoint: ``/api/v1/product``
 * Example Json request:
 ```
 {
@@ -74,7 +74,7 @@
 ### Comparing 2 product by product id
 * Method: GET
 * Content-Type: application/json
-* Endpoint: /api/v1/compare
+* Endpoint: ``/api/v1/compare``
 * Example Json request:
 ```
 {
@@ -136,7 +136,7 @@
 ### Post an order
 * Method: POST
 * Content-Type: application/json
-* Endpoint: /api/v1/order
+* Endpoint: ``/api/v1/order``
 * Example Json request:
 ```
 {
@@ -160,7 +160,7 @@
 ### Get all order by username
 * Method: GET
 * Content-Type: application/json
-* Endpoint: /api/v1/allorder
+* Endpoint: ``/api/v1/allorder``
 * Example Json request:
 ```
 {
