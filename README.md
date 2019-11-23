@@ -6,7 +6,7 @@
 4. Start the application by ``npm start``
 5. Below are the endpoints 
 
-a. Getting products by value
+### Getting products by value
 Method: GET
 Content-Type: application/json
 Endpoint: localhost:6000/api/v1/product
